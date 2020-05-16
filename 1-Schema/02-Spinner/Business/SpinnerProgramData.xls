@@ -1,0 +1,10 @@
+Program Name	Registry Name	Description	Type (mql<default>/java/ekl/external)	Execute (immediate<default>/deferred)	Needs Bus Obj (boolean)	Downloadable (boolean)	Piped (boolean)	Pooled (boolean)	Hidden (boolean)	User	Icon File
+googChromeExtension	googChromeExtension		java	immediate	FALSE	FALSE	FALSE	FALSE	FALSE		
+XORG_Util	XORG_Util		java	immediate	FALSE	FALSE	FALSE	FALSE	TRUE	 User Agent	
+XORGIHSIntegration	XORGIHSIntegration		java	immediate	FALSE	FALSE	FALSE	FALSE	TRUE	 User Agent	
+googPDFSTEPGenerator		Custom Functions for google	java	immediate	FALSE	FALSE	FALSE	FALSE	TRUE		
+googCustomReports		Custom Functions for google	java	immediate	FALSE	FALSE	FALSE	FALSE	TRUE		
+googCustomFunctions		Custom Functions for google	java	immediate	FALSE	FALSE	FALSE	FALSE	TRUE		
+googPersonUtilities	googPersonUtilities		java	immediate	FALSE	FALSE	FALSE	FALSE	FALSE		
+googCustomIssueTriggers		Custom Functions for google	java	immediate	FALSE	FALSE	FALSE	FALSE	TRUE
+googEBOMRelationship_Torque_Attribute_Updation.tcl	googEBOMRelationship_Torque_Attribute_Updation.tcl		mql	immediate	FALSE	FALSE	FALSE	FALSE	FALSE	

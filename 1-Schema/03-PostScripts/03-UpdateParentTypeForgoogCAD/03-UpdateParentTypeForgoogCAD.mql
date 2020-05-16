@@ -1,0 +1,2 @@
+mod type "googCAD Model" derived DOCUMENTS;
+mod rel "Part Specification" to add type "googCAD Model";

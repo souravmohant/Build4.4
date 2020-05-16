@@ -1,0 +1,8 @@
+mod bus VPLMInteg-SynchParameters vplm NewTypingTeam "VPLMInteg-VPMToMxTypeMapping" "VPMReference|Part Specification,[JPO:XORG_Util,getMappedTypeAndPolicy]
+VPMReference,CONFIGURED|Part Specification,Part,Configured Part
+ENOCLG_LibraryReference|VPLMInteg-VPLMProjection,General Library
+ENOCLG_ClassReference|VPLMInteg-VPLMProjection,General Class";
+mod bus VPLMInteg-SynchParameters vplm NewTypingVPM "VPLMInteg-VPMToMxTypeMapping" "VPMReference|Part Specification,[JPO:XORG_Util,getMappedTypeAndPolicy]
+VPMReference,CONFIGURED|Part Specification,Part,Configured Part
+ENOCLG_LibraryReference|VPLMInteg-VPLMProjection,General Library
+ENOCLG_ClassReference|VPLMInteg-VPLMProjection,General Class";

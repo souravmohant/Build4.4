@@ -1,0 +1,6 @@
+Type	Name	Rev	New Name	New Rev	Policy	State	Vault	Owner	description	eService Name Prefix	eService Name Suffix	eService Retry Delay	eService Retry Count	eService Processing Time Limit	eService Safety Policy	eService Safety Vault	Override Settings	Create Trigger	Modify Trigger	Delete Trigger
+eService Object Generator	type_googCADModel	A Size	type_googCADModel	A Size	eService Object Generator	Exists	eService Administration	creator		A-		1000	5	60	policy_CADModel	vault_eServiceAdministration				
+eService Object Generator	type_googCADModel	B Size	type_googCADModel	B Size	eService Object Generator	Exists	eService Administration	creator		B-		1000	5	60	policy_CADModel	vault_eServiceAdministration				
+eService Object Generator	type_googCADModel	C Size	type_googCADModel	C Size	eService Object Generator	Exists	eService Administration	creator		C-		1000	5	60	policy_CADModel	vault_eServiceAdministration				
+eService Object Generator	type_googCADModel	D Size	type_googCADModel	D Size	eService Object Generator	Exists	eService Administration	creator		D-		1000	5	60	policy_CADModel	vault_eServiceAdministration				
+eService Object Generator	type_googCADModel	xPrd Series	type_googCADModel	xPrd Series	eService Object Generator	Exists	eService Administration	creator		xPrd-		1000	5	60	policy_CADModel	vault_eServiceAdministration				

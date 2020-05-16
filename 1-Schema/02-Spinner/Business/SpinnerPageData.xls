@@ -1,0 +1,6 @@
+Page Name	Registry Name	Description	Mime Type	Hidden (boolean)	Icon File
+XORGIHSIntegrationMapping				FALSE	
+emxFrameworkStringResource_en.properties				FALSE	
+emxFrameworkStringResource.properties				FALSE	
+googSTEPPDFTIMERConfiguration		Configuration file for STEP and PDF file generation		FALSE
+googSTEPPDFBatchConfiguration		Configuration file for STEP and PDF file generation		FALSE	
