@@ -1,0 +1,6 @@
+mod policy "VPLM_SMB_Evaluation" state "FROZEN" add user "VPLMCreator" signature "ToRelease" approve branch RELEASED  single organization single project any owner any reserve any maturity any category;
+mod policy "VPLM_SMB_Evaluation" state "IN_WORK" add user "VPLMCreator" signature "ToRelease" approve branch RELEASED  single organization single project any owner any reserve any maturity any category;
+mod policy "VPLM_SMB_Resource" state "FROZEN" add user "VPLMCreator" signature "ToRelease" approve branch RELEASED  single organization single project any owner any reserve any maturity any category;
+mod policy "VPLM_SMB_Resource" state "IN_WORK" add user "VPLMCreator" signature "ToRelease" approve branch RELEASED  single organization single project any owner any reserve any maturity any category;
+mod policy "VPLM_SMB_Definition_Document" state "FROZEN" add user "VPLMCreator" signature "ToRelease" approve branch RELEASED  single organization single project any owner any reserve any maturity any category;
+mod policy "VPLM_SMB_Definition_Document" state "IN_WORK" add user "VPLMCreator" signature "ToRelease" approve branch RELEASED  single organization single project any owner any reserve any maturity any category;

@@ -1,0 +1,12 @@
+Deviation.Mail.Message.Layout.Header=Type,Name,Title,Description,Owner,Resolution Recommendation,Action Taken,Resolution Statement
+Deviation.Mail.Subject=<Type> <Name> has been <State>
+ChangeAction.Mail.Message.Layout.Header=Type,Name,Description,Title
+ChangeAction.Mail.Subject=<Type> <Name> has been promoted to <State>
+Type=type
+Name=name
+Title=attribute[Title]
+Description=description
+Owner=owner
+ResolutionRecommendation=attribute[Resolution Recommendation]
+ActionTaken=attribute[Action Taken]
+ResolutionStatement=attribute[ResolutionStatement]

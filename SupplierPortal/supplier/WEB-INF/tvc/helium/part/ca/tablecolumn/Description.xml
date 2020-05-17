@@ -1,0 +1,14 @@
+<Column xmlns="http://technia.com/TVC/Column" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://technia.com/TVC/Column http://products.technia.com/tvc/schema/latest/Column.xsd">
+    <Name>Description</Name>
+    <DataHandlerClass>com.waymo.helium.datahandler.DescriptionDataHandler</DataHandlerClass>
+    <Label>Description</Label>
+	<Setting name="options">
+      {
+        "filter": {
+        "position": "header"
+        }
+     }
+   </Setting>
+	<NoWrap>false</NoWrap>
+</Column>

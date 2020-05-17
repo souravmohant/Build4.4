@@ -1,0 +1,29 @@
+<Form>
+	<Title>Change Action Details</Title>
+	<SubmitStrategy>AUTO</SubmitStrategy>
+	<Layout>
+		<Template>helium/custom/templates/form/ca-details</Template>
+	</Layout>
+	<Section dom-id="general">
+		<Label>General</Label>
+		<Field namespace="helium:changeaction" name="Name.xml" />
+		<Field namespace="helium:common" name="Status.xml" />
+		<Field namespace="helium:changeaction" name="CurrentStateDate.xml" />
+		<Field namespace="helium:changeaction" name="DesignReleaseEngineer.xml" />
+		<Field namespace="helium:common" name="Description.xml" />
+		<Field namespace="helium:changeaction" name="ReasonForChange.xml" />
+	</Section>
+	<Section dom-id="change-action-details">
+		<Label>Change Details</Label>
+		<Field namespace="helium:changeaction" name="googDECOBuildEvent.xml" />
+		<Field namespace="helium:changeaction" name="ManufacturingImpact.xml" />
+		<Field namespace="helium:changeaction" name="googSDSTracked.xml" />
+		<Field namespace="helium:changeaction" name="googPCNnumber.xml" />
+		<Field namespace="helium:changeaction" name="ImpactToMfgProcess.xml" />
+		<!-- <Field namespace="helium:changeaction" name="ImplementationStatus.xml" /> -->
+	</Section>
+	<Section dom-id="change-action-referencedocs">
+		<Label>Reference Documents</Label>
+		<Field namespace="helium:changeaction" name="ReferenceDocuments.xml" />
+	</Section>
+</Form>

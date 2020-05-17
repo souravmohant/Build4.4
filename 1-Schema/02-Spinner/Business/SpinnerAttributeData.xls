@@ -1,0 +1,4 @@
+Attribute Name	Registry Name	Scope	Owner	Type	Description	Default	"Ranges (use ""|"" delim)"	Multiline (boolean)	Hidden (boolean)	Dimension	Max Length (int)	ResetonClone (boolean)	ResetonRevision (boolean)	Icon File	ValueType	CustomerExposition(ReadOnly)	Protection(ReadOnly)
+googImplementationStatus	googImplementationStatus			string	Attribute to denote Implementation Status	Not Implemented	= Not Implemented | = Partially Implemented | = Implemented	FALSE	FALSE		0	TRUE	FALSE				
+googBuild	googBuild			string	googBuild		uses program googRangeAttribute	FALSE	FALSE		0	FALSE	FALSE				
+googProject	googProject			string	googProject		uses program googRangeAttribute	FALSE	FALSE		0	FALSE	FALSE				

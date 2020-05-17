@@ -1,0 +1,17 @@
+<Column xmlns="http://technia.com/TVC/Column" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://technia.com/TVC/Column http://products.technia.com/tvc/schema/latest/Column.xsd">
+    <Name>ChangeNumber</Name>
+    <DataHandlerClass>com.waymo.helium.datahandler.PartChangeNumberDataHandler</DataHandlerClass>
+    <Setting name="selectExpression" value="name" />
+    <Label>Change Number</Label>
+    <SortOrder>1</SortOrder>
+    <Sortable>true</Sortable>
+	<SortDirection>ascending</SortDirection>
+	<Setting name="options">
+			{
+	    		"filter": {
+	        	"position": "header"
+	    		}
+			}
+    </Setting>
+</Column>

@@ -1,0 +1,12 @@
+<TableConfig>
+    <Title>Affected Items</Title>
+    <DataLoader>
+            <DataSet namespace="helium:changeaction">AffectedItems.xml</DataSet>
+    </DataLoader>
+    <Table namespace="helium:changeaction">AffectedItems.xml</Table>
+    <DisplayMode>flat</DisplayMode>
+    <RowSelect>multiple</RowSelect>
+    <ForceReload>true</ForceReload>
+    <Pagination size="50" disabled="false" />
+    <ClientSideProcessing enabled="true" threshold="10000" />
+</TableConfig>

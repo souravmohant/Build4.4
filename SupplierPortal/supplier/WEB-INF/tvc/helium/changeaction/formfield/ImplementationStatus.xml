@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Field>
+    <Label>Implementation Status</Label>
+    <Expression>${attribute[attribute_googImplementationStatus]}</Expression>
+    <FieldType>text</FieldType>
+    <Editable>true</Editable>
+</Field>

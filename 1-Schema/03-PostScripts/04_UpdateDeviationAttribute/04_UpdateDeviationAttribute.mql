@@ -1,0 +1,2 @@
+mod type Issue add attribute googBuild;
+mod type Issue add attribute googProject;

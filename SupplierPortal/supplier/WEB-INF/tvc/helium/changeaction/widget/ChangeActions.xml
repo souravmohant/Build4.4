@@ -1,0 +1,26 @@
+<DataTable>
+	<Title>Changes</Title>
+	<TableConfig namespace="helium:changeaction">ChangeActions.xml</TableConfig>
+	<Responsive>false</Responsive>
+	<FixedHeader>false</FixedHeader>
+	<PostRender>App.waymo.caTableFilter.postRender</PostRender>
+	<Toolbar actionHandler="com.technia.helium.table.config.action.TableActionHandler">
+		<Command>
+		    <Label>Start Discussion</Label>
+		    <FontIcon>icon comments outline</FontIcon>
+			<OnClick>App.waymo.startDiscussion</OnClick>
+			<OnClickParams>{
+				"selectionCriteria": "single"
+				}
+			</OnClickParams>
+		</Command>
+		<ToggleColumnVisibility />
+		<Menu>
+            <Label>Export</Label>
+            <FontIcon>fa fa-share-square</FontIcon>
+            <ExportExcel />
+            <ExportPDF />
+            <ExportCSV />
+        </Menu>
+    </Toolbar>
+</DataTable>

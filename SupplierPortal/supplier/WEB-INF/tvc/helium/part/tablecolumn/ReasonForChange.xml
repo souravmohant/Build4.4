@@ -1,0 +1,11 @@
+<Column xmlns="http://technia.com/TVC/Column" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://technia.com/TVC/Column http://products.technia.com/tvc/schema/latest/Column.xsd">
+    <Name>ReasonForChange</Name>
+    <DataHandlerClass>com.waymo.helium.datahandler.PartReasonForChangeDataHandler</DataHandlerClass>
+    <Setting name="selectExpression" value="attribute[Reason for Change].value" />
+    <Label>Reason For Change</Label>
+	<NoWrap>false</NoWrap>
+    <SortOrder>1</SortOrder>
+    <Sortable>true</Sortable>
+	<SortDirection>ascending</SortDirection>
+</Column>

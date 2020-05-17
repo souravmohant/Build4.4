@@ -1,0 +1,16 @@
+<Column>
+    <Name>ReasonforChange</Name>
+    <DataHandlerClass>com.waymo.helium.datahandler.CAReasonForChangeDataHandler</DataHandlerClass>
+    <Label>Reason for Change</Label>
+	<Setting name="options">
+			{
+	    		"filter": {
+	        	"position": "header"
+	    		}
+			}
+    </Setting>
+	<NoWrap>false</NoWrap>	
+    <SortOrder>1</SortOrder>
+    <Sortable>true</Sortable>
+	<SortDirection>ascending</SortDirection>
+</Column>

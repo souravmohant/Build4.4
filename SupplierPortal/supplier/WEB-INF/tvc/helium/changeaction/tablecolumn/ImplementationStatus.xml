@@ -1,0 +1,9 @@
+<Column xmlns="http://technia.com/TVC/Column" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://technia.com/TVC/Column http://products.technia.com/tvc/schema/latest/Column.xsd">
+    <Name>ImplementationStatus</Name>
+    <Expression><![CDATA[$<attribute[attribute_googImplementationStatus].value>]]></Expression>
+    <Label>Implementation Status</Label>
+    <SortOrder>1</SortOrder>
+    <Sortable>true</Sortable>
+	<SortDirection>ascending</SortDirection>
+</Column>

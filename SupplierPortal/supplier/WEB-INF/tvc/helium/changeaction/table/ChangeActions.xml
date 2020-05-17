@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Table xmlns="http://technia.com/TVC/Table" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://technia.com/TVC/Table http://products.technia.com/tvc/schema/latest/Table.xsd">
+	<DisplayName>Change Actions</DisplayName>
+	<Column ref="tvc:tablecolumn:helium:part:ca/Name.xml" />
+	<Column ref="tvc:tablecolumn:helium:part:ca/Description.xml" />
+	<Column ref="tvc:tablecolumn:helium:part:ca/DesignReleaseEngineer.xml" />
+	<Column ref="tvc:tablecolumn:helium:common/State.xml" />
+	<Column ref="tvc:tablecolumn:helium:part:ca/OpenInSidepanel.xml" />
+	<Column ref="tvc:tablecolumn:helium:common/Discussion.xml" />
+	<Column ref="tvc:tablecolumn:helium:part:ca/CurrentStateDate.xml" />
+	<Column ref="tvc:tablecolumn:helium:part:ca/ReasonForChange.xml" />
+	<Column ref="tvc:tablecolumn:helium:part:ca/ManufacturingImpact.xml" />
+	<Column ref="tvc:tablecolumn:helium:part:ca/ImpactToMfgProcess.xml" />
+	<Column ref="tvc:tablecolumn:helium:part:ca/SDSTracked.xml" />
+	<Column ref="tvc:tablecolumn:helium:part:ca/BuildEvent.xml" />
+	<!-- <Column ref="tvc:tablecolumn:helium:part:ca/ImplementationStatus.xml" /> -->	
+</Table>

@@ -1,0 +1,58 @@
+<!--div class="topbar-logo" title="{{logoTitle}}"></div-->
+<div>
+<img src="images/Waymo_Topbar_logo.png" width="40px" height="40px"></img>
+</div>
+<div id="compass_ctn" class="topbar-compass"></div>
+<div class="topbar-left">
+    <div class= "topbar-app">
+        <span class="topbar-app-i3dx"><b>Waymo</b> {{appName}} |</span>
+        <span class="topbar-app-brand {{#unless application}}no-application{{/unless}}">{{brand}}</span>
+        <span class="topbar-app-title">
+            <span class="topbar-app-name">{{application}}</span>
+            <span class="topbar-app-opts">
+                {{#if appIcon}}
+                    <span class="topbar-app-icon fonticon fonticon-{{appIcon}}"style="display:inline-block;"></span>
+                {{/if}}
+                <span class="topbar-app-menu"></span>
+            </span>
+        </span>
+    </div>
+</div>
+<div class="topbar-center topbar-without-extrabtn {{#if addinMode}}{{#unless lockedAppMode}}with-addinbtn{{/unless}}{{/if}}">
+    <div class="topbar-cmd fonticon fonticon-search search"></div>
+    <div id="btn_tag_nav" class="topbar-cmd fonticon fonticon-tag-alt tagnav" title="6WTags"></div>
+    {{#unless lockedAppMode}}
+        <div class="topbar-cmd fonticon fonticon-menu menu"></div>
+    {{/unless}}
+	<div class="topbar-menu-dd-item" onclick='window.open("goog_customSearchConfiguration.jsp","SearchCinfig","height=600,width=800");'>
+		<img src="images/iconConfigureEffectivity.png" width="40px" height="40px" title="Search Configuration"></img>
+	</div>
+</div>
+<div class="topbar-right topbar-without-extrabtn {{#if addinMode}}{{#unless lockedAppMode}}with-addinbtn{{/unless}}{{/if}}">
+    {{#unless lockedAppMode}}
+        <div class="topbar-cmd fonticon fonticon-menu menu"></div>
+    {{/unless}}
+    {{#if displayAccess}}
+    <div class="topbar-access">
+        <span class="topbar-access-divider">|</span>
+    </div>
+    {{/if}}
+</div>
+<div class="topbar-extrabtn topbar-extrabtn-hidden">
+    <div class="topbar-extrabtn-divider">|</div>
+    <div class="topbar-cmd extrabtn"></div>
+</div>
+<div class="topbar-menu-dd-item" onclick='javascript:dogoog3DSpaceLogout();'>
+		<img src="images/googdooropen.gif" width="40px" height="40px" title="Clear Cookies And Logout"></img>
+	</div>
+
+{{#if addinMode}}
+    {{#unless lockedAppMode}}
+        <div class="topbar-addinbtn">
+            <div class="topbar-extrabtn-divider">|</div>
+            <div class="topbar-cmd addin-close fonticon fonticon-wrong"></div>
+        </div>
+    {{/unless}}
+{{/if}}
+
+

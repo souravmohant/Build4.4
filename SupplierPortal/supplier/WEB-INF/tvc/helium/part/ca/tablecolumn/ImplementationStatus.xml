@@ -1,0 +1,15 @@
+<Column>
+    <Name>ImplementationStatus</Name>
+     <Expression>attribute[googImplementationStatus].value</Expression>
+    <Label>Implementation Status</Label>
+	<Setting name="options">
+			{
+	    		"filter": {
+	        	"position": "header"
+	    		}
+			}
+    </Setting>
+    <SortOrder>1</SortOrder>
+    <Sortable>true</Sortable>
+	<SortDirection>ascending</SortDirection>
+</Column>

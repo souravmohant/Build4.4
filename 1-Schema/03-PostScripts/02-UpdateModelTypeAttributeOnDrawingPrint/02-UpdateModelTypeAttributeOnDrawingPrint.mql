@@ -1,0 +1,3 @@
+mod type "Drawing Print" add attribute "Model Type";
+mod policy "Drawing Print" add format PDF;
+mod policy "Drawing Print" add format obj;
