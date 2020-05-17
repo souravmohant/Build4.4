@@ -1,2 +1,0 @@
-Name	Registry Name	Description	Store	Hidden (boolean)	"Types (use ""|"" delim)"	"Formats (use ""|"" delim)"	Default Format	Locking (boolean)	Allstate (boolean)	Minor Rev Seq (use 'continue' for '...')	Major Rev Seq (use 'continue' for '...')	Delimiter	Icon File
-CAD Model	CAD Model	CAD Model	STORE	FALSE	CAD Model | googCAD Model	generic | prt | asm | Image | zip | bom | Mill | Drill | Artwork | Assembly Placement | PDF | CGR | THUMBNAIL | PNG | obj | CATPart	generic	FALSE	TRUE	"A,B,C,continue"			

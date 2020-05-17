@@ -1,7 +1,0 @@
-Schema Type	Schema Name	State (for Policy)	Trigger Event	Trigger Type (check / override / action)	Program	Input
-type	googCAD Model		create	action	emxTriggerManager	TypeAllCreateAction TypegoogCADModelCreateAction
-type	googCAD Model		revision	action	emxTriggerManager	TypeAllReviseAction TypeDOCUMENTSReviseAction TypegoogCADModelReviseAction
-type	googCAD Model		create	check	emxTriggerManager	TypegoogCADModelCreateCheck
-type	googCAD Model		delete	override	emxTriggerManager	TypegoogCADModelDeleteOverride
-type	googCAD Model		changeowner	action	emxTriggerManager	TypegoogCADModelChangeOwnerAction
-type	googCAD Model		delete	check	emxTriggerManager	TypeDOCUMENTSDeleteCheck PDELicenseCheck

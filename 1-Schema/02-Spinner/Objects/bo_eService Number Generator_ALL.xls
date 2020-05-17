@@ -1,6 +1,0 @@
-Type	Name	Rev	New Name	New Rev	Policy	State	Vault	Owner	description	eService Next Number	Override Settings	Create Trigger	Modify Trigger	Delete Trigger
-eService Number Generator	type_Part	Temporary Part Placeholder	type_Part	Temporary Part Placeholder	eService Object Generator	Exists	eService Administration	creator		249215				
-eService Number Generator	type_Part.orig	B Size	type_Part.orig	B Size	eService Object Generator	Exists	eService Administration	creator		130				
-eService Number Generator	type_Part.orig	C Size	type_Part.orig	C Size	eService Object Generator	Exists	eService Administration	creator		102				
-eService Number Generator	type_Part.orig	D Size	type_Part.orig	D Size	eService Object Generator	Exists	eService Administration	creator		101				
-eService Number Generator	type_googCADModel	xPrd Series	type_googCADModel	xPrd Series	eService Object Generator	Exists	eService Administration	creator		1				

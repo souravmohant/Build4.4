@@ -1,1 +1,0 @@
-exec prog emxSpinnerAgent.tcl
