@@ -1,0 +1,4 @@
+SCRIPT_DIR=C:/Sourav_JKN/JNKN_Scripts
+WORKSPACE=C:/Sourav_Softwares/jenkins/workspace/Build4.4
+STARTUPSHUTDOWNBAT=C:/apache-tomee-plus-7.0.5/bin
+SERVERDIRECTORY=C:/apache-tomee-plus-7.0.5/webapps/3dspace
