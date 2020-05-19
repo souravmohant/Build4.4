@@ -4,9 +4,10 @@ set systemTime1 [clock seconds]
 set pwdir [pwd]
 set RootDirs [glob -nocomplain *]
 puts -nonewline "Enter Target Environment name LOCAL/DEV/UAT/PROD: "
-flush stdout
-set envname [gets stdin]
-set envname [string toupper $envname]
+#flush stdout
+#set envname [gets stdin]
+#set envname [string toupper $envname]
+set envname "LOCAL"
 if {$envname == "DEV" || $envname == "UAT" || $envname == "PROD" || $envname == "LOCAL"} {
 puts "Deploying code as $envname environment"
 foreach RFDirs $RootDirs {
